@@ -1,0 +1,37 @@
+Quick news application :
+
+Overview:
+
+The Automated Auto News Summarization System is designed to transform the way users consume automotive news by providing concise, relevant, and timely updates. Utilizing the power of Recurrent Neural Networks (RNNs), this system automates the extraction, preprocessing, and summarization of lengthy news articles, ensuring users receive only the most crucial information tailored to their preferences.
+Key Features:
+1. Automated News Extraction and Preprocessing:
+       - News Extraction: The system automatically gathers automotive news from various online sources.
+       - Text Preprocessing: Extracted articles are cleaned and prepared for summarization, involving steps like tokenization, stopword removal, and punctuation handling.
+
+2. Summarization Using RNNs: (we are using ready made model)
+       - Model Training: RNN models are trained on a large corpus of automotive news to understand context and language nuances.
+       - Summary Generation: These models produce concise and coherent summaries, retaining essential information and context.
+
+    Personalization:
+       - User Preferences: Summaries are tailored based on user-defined preferences, ensuring relevance.
+       - Customization Options: Users can set their preferences for the type and frequency of news updates they receive.
+
+3. Technical Implementation:
+
+    Front End:
+        Framework: Flutter
+        State Management: GetX
+        Architecture: Model-View-Controller (MVC) for a structured and maintainable codebase.
+
+    Back End:
+        Framework: Django, providing a robust and scalable environment.
+        Server Hosting: PythonAnywhere, ensuring reliable and secure hosting.
+        Database: SQLite, for efficient data storage and retrieval.
+
+    DevOps:
+        Continuous Integration and Deployment: GitHub Actions automate the running of scripts and deployment processes, facilitating continuous integration and delivery.
+
+Benefits:
+    Timeliness: Users receive the latest automotive news updates promptly.
+    Relevance: Personalized summaries ensure that the news content aligns with user interests.
+    Conciseness: Summaries are brief yet informative, saving users time and effort.
